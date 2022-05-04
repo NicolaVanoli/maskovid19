@@ -7,8 +7,7 @@ This project is inspired by the works of:
 2.	Prajna Bhandary (https://github.com/prajnasb/observations)
 3.	Adrian Rosebrock (https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 Maskovid-19 uses two deep neural networks for different tasks: the first one is a pre-trained CNN able to detect faces when a picture is given it as input and is (hopefully) not going to be trained by us for better results. Once the faces are recognized by this neural network, the input image is cropped and only the part of the picture containing the face/faces is returned as output.
-![Immagine1](https://user-images.githubusercontent.com/59766551/166697723-f9d8f19b-b428-4425-a6b2-d2324c307e2f.jpg) --->
-![Immagine2](https://user-images.githubusercontent.com/59766551/166697781-764d8045-c025-4fba-8327-4efcd75a8770.jpg)
+![Immagine1](https://user-images.githubusercontent.com/59766551/166697723-f9d8f19b-b428-4425-a6b2-d2324c307e2f.jpg) --->![Immagine2](https://user-images.githubusercontent.com/59766551/166697781-764d8045-c025-4fba-8327-4efcd75a8770.jpg)
 
 
 Once the picture has been cropped the second CNN is asked to classify the face as a mask or not-mask user.
